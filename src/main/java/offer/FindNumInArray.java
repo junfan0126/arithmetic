@@ -1,3 +1,5 @@
+package offer;
+
 /**
  * @author
  * @version 1.0
