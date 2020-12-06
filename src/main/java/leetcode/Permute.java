@@ -9,6 +9,7 @@ import java.util.List;
  * @version 1.0
  * @date 2020/12/6 下午4:17
  * @description     46、全排列(不包含重复数字)
+ *                  回溯
  **/
 
 public class Permute {
@@ -35,6 +36,7 @@ public class Permute {
             }
             //做选择
             track.add(nums[i]);
+
             backtrack(nums,track);
             //撤销选择
             track.removeLast();
