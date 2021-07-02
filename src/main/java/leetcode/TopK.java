@@ -45,6 +45,7 @@ public class TopK {
                 pq.add(key);
             }
         }
+
         // 取出最小堆中的元素
         List<Integer> res = new ArrayList<>();
         while (!pq.isEmpty()) {
